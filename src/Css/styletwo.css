@@ -1,0 +1,157 @@
+@font-face {
+    font-family: ADLaMDisplay;
+    src: url(../Assetes/font/ADLaMDisplay-Regular.ttf);
+  }
+  @font-face {
+    font-family: DubaiBold;
+    src: url(../Assetes/font/Dubai-Light.ttf);
+  }
+  @font-face {
+    font-family: DubaiLight;
+    src: url(../Assetes/font/Dubai-Bold.ttf);
+  }
+
+/* Home Page CSS START */
+.carousel-inner .carousel-item{
+    height: 80vh;
+}
+.brandLogo .item .testimonial-block{
+    /* border: 1px solid #3a71ea; */
+    border-radius: 3%;
+    padding: 100px;
+    /* background-color: aliceblue; */
+}
+.brandLogo .item .testimonial-block .brandLogo{
+    width: 80%;
+    background-color: #fff;
+}
+.brandLogo .item .testimonial-block p{
+    text-transform: capitalize;
+    font-size: 18px;
+    width: 80%;
+
+}
+.brandLogo .item .testimonial-block .brandLogo img{
+    width: 300px;
+    padding: 30px;
+
+}
+.about-img-container{
+    padding:92px 0px 0px 0px;
+  }
+  .milion-job-img{
+    width: 100%;
+  }
+  .milion-job-img img{
+    width: 40%;
+  }
+  .graph-img {
+    position: absolute;
+    top: -37px;
+    left: -34px;
+  }
+  .Rectangle {
+    position: absolute;
+    right: -26px;
+    bottom: -34px;
+    background-color: #fff;
+    width: 48%;
+    box-shadow: 0px 4px 34px 0px #8A8A8A40;
+    border-radius: 10px;
+  }
+  
+  .Rectangle p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px;
+  }
+  .milion_job_content {
+    font-family: Poppins;
+    text-align: left;
+    padding: 70px 0px 0px 70px;
+  }
+  .more-btn{
+    border: 1px solid #ccc;
+  }
+/* Home Page CSS END */
+/* Service Page Css  START */
+
+.service-title{
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 50px;
+    font-family:DubaiBold ;
+}
+.service-title p{
+    color: #3a71ea;
+    font-size: 30px;
+
+}
+.service-title p span{
+    color: #605b5b;
+}
+.letest .item ,
+.service .item,
+.service_two .item{
+    background-color: #fff;
+    /* box-shadow: 1px 1px 1px 3px #3a71ea; */
+    color: #000;
+    font-family: DubaiBold;
+    border-radius: 2%;
+    width: 86%;
+    border: 1px solid #3a71ea;
+    /* height:54vh ; */
+    padding: 20px;
+}
+.letest .post-slide ,
+.service .post-slide,
+.service_two .post-slide{
+    padding: 20px;
+}
+.letest .item .post-slide .custom-img-div,
+.service .item .post-slide .custom-img-div,
+.service_two .item .post-slide .custom-img-div{
+    width:100%;
+    /* height: 40%; */
+}
+.letest .item .post-slide .service-type-title,
+.service .item .post-slide .service-type-title,
+.service_two .post-slide .service-type-detail{
+    font-size: 24px;
+    font-family: DubaiLight;
+    color:#3a71ea;
+    text-align: left;
+    
+}
+.letest .item .post-slide .service-type-detail,
+.service .item .post-slide .service-type-detail,
+.service_two .item .post-slide .service-type-detail{
+    font-size: 16px;
+    font-family:DubaiLight;
+    color:#000;
+    text-align: left;
+    font-weight: lighter;
+    
+}
+.read-more{
+    color:#3a71ea;
+    text-align: left;
+    font-weight: 300;
+    font-family: 16px;
+}
+.owl-carousel{
+    margin-bottom: 4%;
+}
+.owl-nav{
+    display: none;
+}
+@media screen and (max-width:767px){
+    .letest .item ,
+.service .item,
+.service_two .item{
+    width: 98%;
+}
+}

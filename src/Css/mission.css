@@ -1,0 +1,412 @@
+.image_size {
+  width: 100%;
+}
+
+.parentpro {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  top: 5vh;
+}
+.mission_head {
+  color: #001689;
+  font-size: 40px;
+}
+.mission_head_first {
+  color: #4b91d3;
+  font-size: 30px;
+}
+
+.parentpro_two {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  top: 5vh;
+}
+.parentpro_third {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  top: 5vh;
+}
+.mission_first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+.mission_second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+.mission_third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mission_four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mission_five {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mission_six {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+.expertise_dtl {
+  position: relative;
+  width: 90%;
+  top: -6vh;
+  padding: 10px;
+  /* border: 2px solid black; */
+  /* background-color: #bedaf4f2; */
+  background-color: white;
+  border: 3px solid #3a71ea;
+  border-radius: 2%;
+}
+.expertise_dtl :hover {
+  background-color: aliceblue;
+}
+.innovation_dtl {
+  position: relative;
+  width: 90%;
+  top: -6vh;
+  background-color: white;
+  border: 3px solid #3a71ea;
+  border-radius: 2%;
+  padding: 10px;
+}
+.innovation_dtl :hover {
+  background-color: aliceblue;
+}
+.Collaboration_dtl {
+  position: relative;
+  width: 90%;
+  top: -6vh;
+  background-color: white;
+  border: 3px solid #3a71ea;
+  border-radius: 2%;
+  padding: 10px;
+}
+.Collaboration_dtl :hover {
+  background-color: aliceblue;
+}
+.Client_dtl {
+  position: relative;
+  width: 90%;
+  top: -6vh;
+  background-color: white;
+  border: 3px solid #3a71ea;
+  border-radius: 2%;
+  padding: 10px;
+}
+.Client_dtl :hover {
+  background-color: aliceblue;
+}
+.global_dtl {
+  position: relative;
+  width: 90%;
+  top: -6vh;
+  background-color: white;
+  border: 3px solid #3a71ea;
+  border-radius: 2%;
+  padding: 10px;
+}
+.global_dtl :hover {
+  background-color: aliceblue;
+}
+.Partner_dtl {
+  position: relative;
+  width: 90%;
+  top: -6vh;
+  background-color: white;
+  border: 3px solid #3a71ea;
+  border-radius: 2%;
+  padding: 10px;
+}
+.Partner_dtl :hover {
+  background-color: aliceblue;
+}
+
+.mission_icon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  color: #001689;
+}
+
+.exp {
+  font-size: 32px;
+  color: #001689;
+}
+.invo {
+  font-size: 32px;
+  color: #001689;
+}
+.Coll {
+  font-size: 32px;
+  color: #001689;
+}
+.client {
+  font-size: 32px;
+  color: #001689;
+}
+.global {
+  font-size: 32px;
+  color: #001689;
+}
+.partner {
+  font-size: 32px;
+  color: #001689;
+}
+.missions {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: row;
+  width: 50%;
+}
+@media screen and (max-width: 250px) and (max-width: 767px) {
+  .expertise {
+    width: 100vw;
+    position: relative;
+    right: 5vw;
+    background-color: #bedaf4f2;
+    /* border: 2px solid black; */
+  }
+
+  .expertise_dtl {
+    position: relative;
+    width: 80%;
+    height: 40vh;
+    padding: 5px;
+    top: -75vh;
+    /* letter-spacing: 1px; */
+    left: 15vw;
+    /* border: 2px solid black; */
+  }
+  .innovation_dtl {
+    width: 80%;
+    /* height: 56vh; */
+    top: 0vh;
+    left: -50vw;
+    background-color: white;
+    /* border: 2px solid black; */
+  }
+  .imagetwo {
+    width: 100%;
+  }
+  .innovation {
+    position: relative;
+    /* right: 50vw; */
+    top: -6vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #bedaf4f2;
+  }
+  .parentpro {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40vh;
+    position: relative;
+  }
+
+  .Collaboration_dtl {
+    position: relative;
+    width: 250vw;
+    height: 40vh;
+    left: 15vw;
+    top: -75vh;
+    background-color: #bedaf4f2;
+  }
+  .Collaboration {
+    width: 70vw;
+  }
+  .Client_dtl {
+    position: relative;
+    width: 100%;
+    top: -6vh;
+    left: -50vw;
+    height: 40vh;
+    background-color: #bedaf4f2;
+  }
+  .image_mid {
+    width: 100%;
+  }
+  .clientss {
+    width: 70vw;
+  }
+  .global_div {
+    width: 70vw;
+  }
+  .global_dtl {
+    position: relative;
+    width: 100%;
+    top: -75vh;
+    left: 15vw;
+    height: 40vh;
+    background-color: #bedaf4f2;
+  }
+  .Partner {
+    width: 70vw;
+  }
+  .Partner_dtl {
+    position: relative;
+    width: 100%;
+    top: -6vh;
+    left: -50vw;
+    background-color: #bedaf4f2;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .image_size {
+    width: 100%;
+  }
+
+  .parentpro {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 5vh;
+  }
+  .parentpro_two {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 5vh;
+  }
+  .parentpro_third {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 5vh;
+  }
+  .mission_first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+  }
+  .mission_second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+  }
+  .mission_third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mission_four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mission_five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mission_six {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10vh;
+  }
+  .expertise_dtl {
+    position: relative;
+    width: 90%;
+    top: -6vh;
+    /* border: 2px solid black; */
+    background-color: #bedaf4f2;
+  }
+
+  .innovation_dtl {
+    position: relative;
+    width: 90%;
+    top: -6vh;
+    background-color: #bedaf4f2;
+  }
+  .Collaboration_dtl {
+    position: relative;
+    width: 90%;
+    top: -6vh;
+    background-color: #bedaf4f2;
+  }
+  .Client_dtl {
+    position: relative;
+    width: 90%;
+    top: -6vh;
+    background-color: #bedaf4f2;
+  }
+  .global_dtl {
+    position: relative;
+    width: 90%;
+    top: -6vh;
+    background-color: #bedaf4f2;
+  }
+  .Partner_dtl {
+    position: relative;
+    width: 90%;
+    top: -6vh;
+    background-color: #bedaf4f2;
+  }
+
+  .mission_icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    color: #001689;
+  }
+
+  .exp {
+    font-size: 32px;
+    color: #001689;
+  }
+  .invo {
+    font-size: 32px;
+    color: #001689;
+  }
+  .Coll {
+    font-size: 32px;
+    color: #001689;
+  }
+  .client {
+    font-size: 32px;
+    color: #001689;
+  }
+  .global {
+    font-size: 32px;
+    color: #001689;
+  }
+  .partner {
+    font-size: 32px;
+    color: #001689;
+  }
+  .missions {
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+    width: 50%;
+  }
+}

@@ -1,0 +1,44 @@
+.container .logo {
+  width: 200px;
+}
+.container.customheader {
+  max-width: 100%;
+  padding: 0 50px;
+}
+.navbar {
+  background-color: white;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.088);
+  position: sticky;
+  
+}
+.container .navbar-collapse .navbar-nav .nav-item a.nav-link {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+
+  text-transform: capitalize;
+}
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: unset !important;
+  align-items: center;
+}
+.sign-in-btn {
+  width: 135px;
+  height: 36px;
+  top: 54px;
+  left: 1232px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #4454cc;
+  border: unset;
+  color: #fff;
+}
+.navbar-toggler {
+  background-color: #fff !important;
+}
+a.nav-link.active {
+  color: blue !important;
+}
