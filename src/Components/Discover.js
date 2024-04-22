@@ -81,7 +81,7 @@ function About() {
             <div>
               <img
                 src="https://mackinlay.in/img/hr_connect_app.jpeg"
-                className="image_size"
+                className="image_size" alt="Not Found"
               />
             </div>
             <div className="row  hr_dtl " data-aos="zoom-in-up">

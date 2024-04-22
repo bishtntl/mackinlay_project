@@ -72,7 +72,7 @@ function Service() {
                           streamline processes, enhance productivity, and
                           improve overall efficiency.
                         </p>
-                        <a href="" className="read-more-btn">
+                        <a href="/service" className="read-more-btn">
                           Read More
                         </a>
                       </div>
@@ -89,7 +89,7 @@ function Service() {
                           Unlock the power of the cloud with our scalable and
                           secure cloud computing solutions.
                         </p>
-                        <a href="" className="read-more-btn">
+                        <a href="/service" className="read-more-btn">
                           Read More
                         </a>
                       </div>
@@ -106,7 +106,7 @@ function Service() {
                           Elevate your online presence with our expertly
                           designed websites and optimized.
                         </p>
-                        <a href="" className="read-more-btn">
+                        <a href="/service" className="read-more-btn">
                           Read More
                         </a>
                       </div>
@@ -129,7 +129,7 @@ function Service() {
                           to optimize HR processes, enhance customer
                           experiences, and drive business growth.
                         </p>
-                        <a href="" className="read-more-btn">
+                        <a href="/service" className="read-more-btn">
                           Read More
                         </a>
                       </div>
@@ -148,7 +148,7 @@ function Service() {
                           cybersecurity services, tailored to meet the unique
                           security needs of HR and BFSI organizations.
                         </p>
-                        <a href="" className="read-more-btn">
+                        <a href="/service" className="read-more-btn">
                           Read More
                         </a>
                       </div>
@@ -165,7 +165,7 @@ function Service() {
                           Mobile applications designed to deliver a superior
                           user experience and drive engagement.
                         </p>
-                        <a href="" className="read-more-btn">
+                        <a href="/service" className="read-more-btn">
                           Read More
                         </a>
                       </div>
@@ -230,7 +230,7 @@ function Service() {
                           and implement IT strategies aligned with your business
                           goals and objectives.
                         </p>
-                        <a href="" className="read-more-btn">
+                        <a href="/service" className="read-more-btn">
                           Read More
                         </a>
                       </div>
@@ -249,7 +249,7 @@ function Service() {
                           and websites are not only functional but also visually
                           stunning and intuitive to use.
                         </p>
-                        <a href="" className="read-more-btn">
+                        <a href="/service" className="read-more-btn">
                           Read More
                         </a>
                       </div>
@@ -268,7 +268,7 @@ function Service() {
                           assurance and testing services, meticulously testing
                           every aspect to deliver flawless results.
                         </p>
-                        <a href="" className="read-more-btn">
+                        <a href="/service" className="read-more-btn">
                           Read More
                         </a>
                       </div>
@@ -310,7 +310,7 @@ function Service() {
                           finance, and operations management tailored to your
                           specific business needs.
                         </p>
-                        <a href="" className="read-more-btn">
+                        <a href="/service" className="read-more-btn">
                           Read More
                         </a>
                       </div>
@@ -329,7 +329,7 @@ function Service() {
                           to enhance security, transparency, and trust in your
                           HR and insurance processes.
                         </p>
-                        <a href="" className="read-more-btn">
+                        <a href="/service" className="read-more-btn">
                           Read More
                         </a>
                       </div>
@@ -348,7 +348,7 @@ function Service() {
                           resources, to meet your staffing needs and project
                           requirements effectively.
                         </p>
-                        <a href="" className="read-more-btn">
+                        <a href="/service" className="read-more-btn">
                           Read More
                         </a>
                       </div>

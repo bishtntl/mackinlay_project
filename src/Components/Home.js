@@ -295,7 +295,12 @@ const Home = () => {
 
         <div className="row">
           <div className="pt-5 mt-5">
-            <div id="home" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+            <div
+              id="home"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-bs-interval="1500"
+            >
               <div class="carousel-indicators">
                 <button
                   type="button"
@@ -331,14 +336,14 @@ const Home = () => {
                           <div className="service-type-title">
                             <p>Custom Software Development</p>
                           </div>
-                          <div class="">
+                          <div>
                             <p class="service-type-detail">
                               Transform your HR and insurance operations with
                               our bespoke software solutions ,meticulously
                               crafted to streamline processes, enhance
                               productivity, and improve overall efficiency.
                             </p>
-                            <a href="" className="read-more-btn">
+                            <a href="/" className="read-more-btn">
                               Read more
                             </a>
                           </div>
@@ -354,12 +359,12 @@ const Home = () => {
                           <div class="service-type-title">
                             Cloud Computing Solutions
                           </div>
-                          <div class="">
+                          <div >
                             <p class="service-type-detail">
                               Unlock the power of the cloud with our scalable
                               and secure cloud computing solutions.
                             </p>
-                            <a href="" class="read-more-btn">
+                            <a href="/" class="read-more-btn">
                               Read more
                             </a>
                           </div>
@@ -375,12 +380,12 @@ const Home = () => {
                           <div class="service-type-title">
                             Web Development and Design
                           </div>
-                          <div class="">
+                          <div >
                             <p class="service-type-detail">
                               Elevate your online presence with our expertly
                               designed websites and optimized.
                             </p>
-                            <a href="" class="read-more-btn">
+                            <a href="/" class="read-more-btn">
                               Read more
                             </a>
                           </div>
@@ -405,7 +410,7 @@ const Home = () => {
                               Mobile applications designed to deliver a superior
                               user experience and drive engagement.
                             </p>
-                            <a href="" class="read-more-btn">
+                            <a href="/" class="read-more-btn">
                               Read more
                             </a>
                           </div>
@@ -428,7 +433,7 @@ const Home = () => {
                               crafted to streamline processes, enhance
                               productivity, and improve overall efficiency.
                             </p>
-                            <a href="" className="read-more-btn">
+                            <a href="/" className="read-more-btn">
                               Read more
                             </a>
                           </div>
@@ -444,12 +449,12 @@ const Home = () => {
                           <div class="service-type-title">
                             Cloud Computing Solutions
                           </div>
-                          <div class="">
+                          <div >
                             <p class="service-type-detail">
                               Unlock the power of the cloud with our scalable
                               and secure cloud computing solutions.
                             </p>
-                            <a href="" class="read-more-btn">
+                            <a href="/" class="read-more-btn">
                               Read more
                             </a>
                           </div>
@@ -537,97 +542,8 @@ const Home = () => {
       </section>
       <FooterCompo />
     </div>
-  );
+  )
 };
 
 export default Home;
 
-{
-  /* <div class="graph-img ">
-                <img src={about_1} alt="not found" />
-              </div> */
-}
-{
-  /* <div className="row caro_container">
-          <div className="col-md-12">
-            <div class="owl-carousel service mx-auto">
-              <div class="item ">
-                <div class="post-slide">
-                  <div class="custom-img-div">
-                    <img src={custom_soft_dev} alt="not found" />
-                  </div>
-                  <div class="service-type-title">
-                    Custom Software Development
-                  </div>
-                  <div class="">
-                    <p class="service-type-detail">
-                      Transform your HR and insurance operations with our
-                      bespoke software solutions ,meticulously crafted to
-                      streamline processes, enhance productivity, and improve
-                      overall efficiency.
-                    </p>
-                    <a href="" className="read-more">
-                      Read more
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="item ">
-                <div class="post-slide">
-                  <div class="custom-img-div">
-                    <img src={cloud_comp_sol} alt="not found" />
-                  </div>
-                  <div class="service-type-title">
-                    Cloud Computing Solutions
-                  </div>
-                  <div class="">
-                    <p class="service-type-detail">
-                      Unlock the power of the cloud with our scalable and secure
-                      cloud computing solutions.
-                    </p>
-                    <a href="" class="read-more">
-                      Read more
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="post-slide">
-                  <div class="custom-img-div">
-                    <img src={web_dev_and_design} alt="not found" />
-                  </div>
-                  <div class="service-type-title">
-                    Web Development and Design
-                  </div>
-                  <div class="">
-                    <p class="service-type-detail">
-                      Elevate your online presence with our expertly designed
-                      websites and optimized.
-                    </p>
-                    <a href="" class="read-more">
-                      Read more
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="item ">
-                <div class="post-slide">
-                  <div class="custom-img-div">
-                    <img src={mobile_app_dev} alt="not found" />
-                  </div>
-                  <div class="service-type-title">Mobile App Development</div>
-                  <div class="">
-                    <p class="service-type-detail">
-                      Mobile applications designed to deliver a superior user
-                      experience and drive engagement.
-                    </p>
-                    <a href="" class="read-more">
-                      Read more
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */
-}

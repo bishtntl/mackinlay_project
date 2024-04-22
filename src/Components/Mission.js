@@ -18,6 +18,7 @@ function Mission() {
               <img
                 src="https://mackinlay.in/img/blog-1.jpg"
                 className="image_size"
+                alt="Not Found"
               />
             </div>
             <div className="row expertise_dtl " data-aos="zoom-in-up">
@@ -97,6 +98,7 @@ function Mission() {
               <img
                 src="https://mackinlay.in/img/blog-2.jpg"
                 className="image_size"
+                alt=" Not Found"
               />
             </div>
             <div className="row Collaboration_dtl " data-aos="zoom-in-up">
@@ -173,7 +175,7 @@ function Mission() {
             <div>
               <img
                 src="https://mackinlay.in/img/blog-4.jpg"
-                className="image_size"
+                className="image_size" alt="Not Found"
               />
             </div>
             <div className="row global_dtl " data-aos="zoom-in-up">
