@@ -10,7 +10,7 @@ const Header = () => {
     <div>
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container customheader">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <img
               src={logo}
               style={{ width: "100px;" }}
