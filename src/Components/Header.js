@@ -12,7 +12,7 @@ const Header = () => {
     <div>
       <nav class="navbar navbar-expand-lg bg-white">
         <div class="container customheader">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <img src={logo} style={{width:"100px;"}} alt="not-found" onClick={() =>("/")} className="logo" />
           </a>
           <button
