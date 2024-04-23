@@ -1,6 +1,6 @@
 import React from "react";
 // import image1 from "./images/logo.png";
-import { NavLink, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import logo from "../Assetes/images/mackinlay_logo.png";
 import "../Css/header.css";
 
