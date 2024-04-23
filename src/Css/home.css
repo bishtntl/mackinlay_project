@@ -41,7 +41,7 @@ button#home {
   justify-content: center;
   align-items: center;
 }
-.serviceitem .post-slide .custom-img-div img{
+.serviceitem .post-slide .custom-img-div img {
   padding: 20px 0px;
   height: 200px;
 }
@@ -228,7 +228,7 @@ button#home {
   font-family: DubaiLight;
   text-align: left;
 }
-.btn-container{
+.btn-container {
   display: flex;
   justify-content: start;
   align-items: start;
@@ -251,7 +251,7 @@ button.btn.more-btn.search-btn {
   font-size: 30px;
   font-family: DubaiLight;
 }
-.milion_job_content_us p:nth-child(2){
+.milion_job_content_us p:nth-child(2) {
   font-size: 18px;
 }
 .milion_job_content_us p:nth-child(3) {
@@ -288,11 +288,10 @@ button.btn.more-btn.search-btn {
   color: #3a71ea;
   text-align: center;
 }
-.btn-container{
+.btn-container {
   display: flex;
   justify-content: flex-start;
   margin-top: 5%;
- 
 }
 /* Home Page CSS END */
 /* Service Page Css  START */
@@ -321,37 +320,8 @@ button.btn.more-btn.search-btn {
   border-radius: 2%;
   width: 100%;
   border: 1px solid #3a71ea;
-  /* height:54vh ; */
-  /* padding: 20px; */
-  /* background-color: red; */
 }
-/* .client .item .post-slide,
-.service .post-slide,
-.service_two .post-slide {
-  padding: 20px;
-}
-.letest .item .post-slide .custom-img-div,
-.service .item .post-slide .custom-img-div,
-.service_two .item .post-slide .custom-img-div {
-  width: 100%;
-}
-.client .item .post-slide .service-type-title,
-.service .item .post-slide .service-type-title,
-.service_two .post-slide .service-type-title {
-  font-size: 24px;
-  font-family: DubaiLight;
-  color: #3a71ea;
-  text-align: left;
-}
-.client .item .post-slide .service-type-detail,
-.serviceitem .post-slide .service-type-detail,
-.service_two .item .post-slide .service-type-detail {
-  font-size: 16px;
-  font-family: DubaiLight;
-  color: #000;
-  text-align: left;
-  font-weight: lighter;
-} */
+
 .banner_text {
   color: #3a71ea;
   font-size: 20px;
@@ -396,30 +366,28 @@ button.btn.more-btn.search-btn {
   font-family: 16px;
 }
 
-
-
 .owl-carousel {
   margin-bottom: 4%;
 }
 .owl-nav {
   display: none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 200px) and (max-width: 767px) {
   .testimonial-block {
     margin: 5% 0;
-}
+  }
   img.d-block.w-100 {
     height: 279px;
   }
   .banner_text {
     font-size: 14px;
     top: 10%;
-  } 
-  .banner_text h1{
+  }
+  .banner_text h1 {
     font-size: 18px;
     font-weight: 500;
   }
-  .banner_text p{
+  .banner_text p {
     line-height: 16px;
   }
   .banner_text button {
@@ -433,7 +401,7 @@ button.btn.more-btn.search-btn {
     display: none;
   }
   .testimonial-block {
-  margin: 5% 0%;
+    margin: 5% 0%;
   }
   .milion_job_content .find {
     margin: 0;
@@ -441,37 +409,32 @@ button.btn.more-btn.search-btn {
     font-size: 28px;
     text-align: center;
   }
-  .milion_job_content p:nth-child(3){
+  .milion_job_content p:nth-child(3) {
     margin: 0;
   }
   button.btn.more-btn.search-btn {
     padding: 7px;
-    font-size: 20px;                                 
+    font-size: 20px;
   }
   .best_service_heading {
     font-family: DubaiBold;
     font-size: 40px;
     font-weight: 400;
     /* border: 1px solid red; */
-}
-.serviceitem
-  {
+  }
+  .serviceitem {
     width: 100%;
   }
-/* .serviceitem_other {
-  width: 100%;
-  margin: 2% 0%;
-  height: 500px;
-} */
-.milion_job_content_us {
-  font-family: DubaiLight;
-  text-align: center;
-  padding: 0px 0px;
-  color: #797979;
-  width: 100%;
-}
 
-   .first_home_div {
+  .milion_job_content_us {
+    font-family: DubaiLight;
+    text-align: center;
+    padding: 0px 0px;
+    color: #797979;
+    width: 100%;
+  }
+
+  .first_home_div {
     /* border: 2px solid black; */
     position: relative;
   }
@@ -505,57 +468,64 @@ button.btn.more-btn.search-btn {
     width: 100%;
     position: relative;
     left: -10vw;
-  } 
+  }
+  .section_threee {
+    position: relative;
+    top: -1vh;
+  }
+  .heading_container {
+    position: relative;
+    top: -0.2vh;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .carousel-indicators {
     display: none !important;
-}
+  }
   .testimonial-block {
     margin-top: 5%;
     height: 236px;
-}
-.testimonial-block p {
-  font-size: 20px;
-  width: 100%;
-  font-weight: 400;
-}
+  }
+  .testimonial-block p {
+    font-size: 20px;
+    width: 100%;
+    font-weight: 400;
+  }
 
-button.carousel-control-prev ,
-button.carousel-control-next
- {
-  display: none !important;
-}
-.graph-img img {
-  position: relative;
-  width: 70%;
-}
-.about-img-container .milion-job-img {
-  position: absolute;
-  height: 32%;
-  top: 281px;
-  left: 299px;
-  z-index: 1;
-}
-.about_img_res{
-  width: 20%;
-} 
-button.btn.more-btn.search-btn {
-  border: 1px solid #3a71ea !important;
-  padding: 10px;
-  font-size: 25px;
-  color: #3a71ea;
-}
-.heading_container{
-  padding:5% 0px 0px 0px ;
-}
-.best_service_heading{
-  font-family: DubaiBold;
-  font-size: 40px;
-  font-weight: 500;
-  padding: 30px 0px;
-}
+  button.carousel-control-prev,
+  button.carousel-control-next {
+    display: none !important;
+  }
+  .graph-img img {
+    position: relative;
+    width: 70%;
+  }
+  .about-img-container .milion-job-img {
+    position: absolute;
+    height: 32%;
+    top: 281px;
+    left: 299px;
+    z-index: 1;
+  }
+  .about_img_res {
+    width: 20%;
+  }
+  button.btn.more-btn.search-btn {
+    border: 1px solid #3a71ea !important;
+    padding: 10px;
+    font-size: 25px;
+    color: #3a71ea;
+  }
+  .heading_container {
+    padding: 5% 0px 0px 0px;
+  }
+  .best_service_heading {
+    font-family: DubaiBold;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 30px 0px;
+  }
   .first_home_div {
     /* border: 2px solid black; */
     position: relative;
@@ -579,19 +549,4 @@ button.btn.more-btn.search-btn {
     align-items: center;
     justify-content: center;
   }
-  /* .serviceitem {
-    background-color: #fff;
-    box-shadow: 1px 1px 1px 3px #3a71ea;
-    color: #000;
-    position: relative;
-    top: 10vh;
-
-    font-family: DubaiBold;
-    border-radius: 2%;
-    width: 100%;
-
-    border: 1px solid #3a71ea;
-    height: 100%;
-    padding: 20px;
-  } */
 }
