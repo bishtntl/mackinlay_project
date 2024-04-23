@@ -257,7 +257,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            class="col-md-12 col-lg-6 "
+            class="col-md-12 col-lg-6 content"
             data-aos="fade-up"
             data-aos-offset="300"
           >

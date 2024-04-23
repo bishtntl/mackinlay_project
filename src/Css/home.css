@@ -475,7 +475,11 @@ button.btn.more-btn.search-btn {
   }
   .heading_container {
     position: relative;
-    top: -0.2vh;
+    top: 6vh;
+  }
+  .content {
+    position: relative;
+    top: 3vh;
   }
 }
 
