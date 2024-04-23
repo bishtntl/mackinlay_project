@@ -7,8 +7,6 @@ function SignupCompo() {
   return (
     <div className="body">
       <div className="main">
-        <input type="checkbox" id="chk" aria-hidden="true" />
-
         <div className="signup">
           <form>
             <label className="label" for="chk" aria-hidden="true">

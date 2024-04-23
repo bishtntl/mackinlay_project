@@ -24,9 +24,6 @@
   top: 15vh;
 }
 
-#chk {
-  display: none;
-}
 .signup {
   position: relative;
   width: 100%;
@@ -37,7 +34,7 @@
   font-size: 2.3em;
   justify-content: center;
   display: flex;
-  margin: 60px;
+  margin: 40px;
   font-weight: bold;
   cursor: pointer;
   transition: 0.5s ease-in-out;
@@ -103,4 +100,10 @@
   position: relative;
   top: 1vh;
   color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+    width: 350px;
+  }
 }

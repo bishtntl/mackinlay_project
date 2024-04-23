@@ -7,8 +7,6 @@ function LoginCompo() {
   return (
     <div className="body">
       <div className="main">
-        <input type="checkbox" id="chk" aria-hidden="true" />
-
         <div className="signup">
           <form>
             <label className="label" for="chk" aria-hidden="true">
@@ -33,7 +31,7 @@ function LoginCompo() {
               <span className="already_acc_reg">
                 if you haven't register{" "}
                 <span
-                  onClick={() => navigate("/login")}
+                  onClick={() => navigate("/signup")}
                   style={{ color: "blue" }}
                 >
                   Sign up

@@ -1,10 +1,10 @@
 import React from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../Assetes/images/mackinlay_logo.png";
 import "../Css/header.css";
 
 const Header = () => {
-  const navi = useNavigate();
+ 
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -58,9 +58,9 @@ const Header = () => {
               </li>
             </ul>
             <form class="d-flex">
-              <button className="sign-in-btn" onClick={() => navi("/signup")}>
-                Sign In
-              </button>
+              <NavLink to="signup">
+                <button className="sign-in-btn">Sign In</button>
+              </NavLink>
             </form>
           </div>
         </div>

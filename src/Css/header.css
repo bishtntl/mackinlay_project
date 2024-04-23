@@ -6,9 +6,8 @@
   padding: 0 50px;
 }
 .navbar {
-  background-color: white;
+  /* background-color: white; */
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.088);
-  position: sticky;
 }
 .container .navbar-collapse .navbar-nav .nav-item a.nav-link {
   font-family: Poppins;
@@ -30,16 +29,15 @@
   top: 54px;
   left: 1232px;
   gap: 0px;
-  opacity: 0px;
-
+  z-index: 111;
   background-color: #4454cc;
   border: unset;
   font-weight: bold;
   color: #fff;
 }
-.navbar-toggler {
+/* .navbar-toggler {
   background-color: #fff !important;
-}
-/* a.nav-link.active {
-  color: blue !important;
 } */
+a.nav-link.active {
+  color: blue !important;
+}
