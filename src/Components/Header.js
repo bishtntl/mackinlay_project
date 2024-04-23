@@ -1,6 +1,6 @@
 import React from "react";
 // import image1 from "./images/logo.png";
-import {  useNavigate } from "react-router-dom";
+import {  NavLink, useNavigate } from "react-router-dom";
 import logo from "../Assetes/images/mackinlay_logo.png";
 import "../Css/header.css";
 
@@ -33,47 +33,47 @@ const Header = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-4 mb-2 mb-lg-0">
               <li class="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <NavLink className="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </NavLink>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/discover">
+                <NavLink class="nav-link" to="/discover">
                   Discover
-                </a>
+                </NavLink>
               </li>
 
               <li class="nav-item">
-                <a
+                <NavLink
                   class="nav-link "
-                  href="/service"
+                  to="/service"
                   tabindex="-1"
                   aria-disabled="true"
                 >
                   {" "}
                   Service
-                </a>
+                </NavLink>
               </li>
 
               <li class="nav-item">
-                <a
+                <NavLink
                   class="nav-link"
-                  href="/mission"
+                  to="/mission"
                   tabindex="-1"
                   aria-disabled="true"
                 >
                   Mission
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a
+                <NavLink
                   class="nav-link"
-                  href="/contact"
+                  to="/contact"
                   tabindex="-1"
                   aria-disabled="true"
                 >
                   Contact
-                </a>
+                </NavLink>
               </li>
             </ul>
             <form class="d-flex">
