@@ -69,29 +69,38 @@
   position: relative;
   width: 90%;
   top: -6vh;
-  background-color: #bedaf4f2;
+
+  background-color: white;
+  border: 3px solid #3a71ea;
+  border-radius: 2%;
 }
 .media_dtl {
   position: relative;
   width: 90%;
   top: -6vh;
-  background-color: #bedaf4f2;
+ 
+  background-color: white;
+  border: 3px solid #3a71ea;
+  border-radius: 2%;
 }
 
 @media screen and (min-width: 250px) and (max-width: 767px) {
   .about_img_discover {
-    width: 65%;
+    width: 75%;
   }
   .under_about_div {
     position: absolute;
-    bottom: 15vh;
-    left: 3vw;
+    bottom: -15vh;
+    left: 35vw;
+  }
+  .about_img_two {
+    width: 100%;
   }
   .about_img_two_discover {
     width: 100%;
   }
   .dtl_about {
-    margin-top: 20vh;
+    margin-top: 0vh;
   }
   .imagetwo_product {
     width: 100%;
@@ -99,6 +108,9 @@
   }
   .first_div {
     position: relative;
+  }
+  .about_img {
+    width: 65%;
   }
 
   .product_parent {
@@ -145,13 +157,13 @@
     position: relative;
     width: 90%;
     top: -6vh;
-    background-color: #bedaf4f2;
+   
   }
   .media_dtl {
     position: relative;
     width: 90%;
     top: -6vh;
-    background-color: #bedaf4f2;
+  
   }
 }
 
@@ -159,7 +171,7 @@
   .about_img_discover {
     width: 50%;
     border: 10px solid red;
-}
+  }
   .under_about_div {
     position: absolute;
     bottom: 15vh;

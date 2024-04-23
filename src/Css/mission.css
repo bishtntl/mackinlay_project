@@ -202,7 +202,7 @@
     /* height: 56vh; */
     top: 0vh;
     left: -50vw;
-    background-color: white;
+    /* background-color: white; */
     /* border: 2px solid black; */
   }
   .imagetwo {
@@ -214,7 +214,7 @@
     top: -6vh;
     width: 100vw;
     box-sizing: border-box;
-    background-color: #bedaf4f2;
+    /* background-color: #bedaf4f2; */
   }
   .parentpro {
     display: flex;
@@ -231,7 +231,7 @@
     height: 40vh;
     left: 15vw;
     top: -75vh;
-    background-color: #bedaf4f2;
+    /* background-color: #bedaf4f2; */
   }
   .Collaboration {
     width: 70vw;
@@ -242,7 +242,7 @@
     top: -6vh;
     left: -50vw;
     height: 40vh;
-    background-color: #bedaf4f2;
+    /* background-color: #bedaf4f2; */
   }
   .image_mid {
     width: 100%;
@@ -259,7 +259,7 @@
     top: -75vh;
     left: 15vw;
     height: 40vh;
-    background-color: #bedaf4f2;
+    /* background-color: #bedaf4f2; */
   }
   .Partner {
     width: 70vw;
@@ -269,7 +269,7 @@
     width: 100%;
     top: -6vh;
     left: -50vw;
-    background-color: #bedaf4f2;
+    /* background-color: #bedaf4f2; */
   }
 }
 
@@ -337,38 +337,38 @@
     width: 90%;
     top: -6vh;
     /* border: 2px solid black; */
-    background-color: #bedaf4f2;
+    /* background-color: #bedaf4f2; */
   }
 
   .innovation_dtl {
     position: relative;
     width: 90%;
     top: -6vh;
-    background-color: #bedaf4f2;
+    /* background-color: #bedaf4f2; */
   }
   .Collaboration_dtl {
     position: relative;
     width: 90%;
     top: -6vh;
-    background-color: #bedaf4f2;
+    /* background-color: #bedaf4f2; */
   }
   .Client_dtl {
     position: relative;
     width: 90%;
     top: -6vh;
-    background-color: #bedaf4f2;
+    /* background-color: #bedaf4f2; */
   }
   .global_dtl {
     position: relative;
     width: 90%;
     top: -6vh;
-    background-color: #bedaf4f2;
+    /* background-color: #bedaf4f2; */
   }
   .Partner_dtl {
     position: relative;
     width: 90%;
     top: -6vh;
-    background-color: #bedaf4f2;
+    /* background-color: #bedaf4f2; */
   }
 
   .mission_icon {
