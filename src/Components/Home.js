@@ -12,8 +12,10 @@ import cloud_comp_sol from "../Assetes/images/cloud_comp_slou_new.png";
 import web_dev_and_design from "../Assetes/images/web_dev_design_new.png";
 import mobile_app_dev from "../Assetes/images/mobile_app_dev_new.png";
 import FooterCompo from "./Footer";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navi = useNavigate();
   return (
     <div>
       <section className="banner-container">
@@ -33,7 +35,7 @@ const Home = () => {
                   two years of expertise, we provide innovative solutions that
                   drive efficiency and excellence in business operations.
                 </p>
-                <button>Get Started</button>
+                <button onClick={() => navi("/contact")}>Get Started</button>
               </div>
             </div>
             <div class="carousel-item fact-item">
@@ -46,7 +48,7 @@ const Home = () => {
                   digital transformation and empowering businesses to thrive in
                   the dynamic IT landscape.
                 </p>
-                <button>Get Started</button>
+                <button onClick={() => navi("/contact")}>Get Started</button>
               </div>
             </div>
             <div class="carousel-item fact-item">
@@ -59,7 +61,7 @@ const Home = () => {
                   operational efficiency and regulatory compliance, making us
                   the go-to choice for BFSI technology needs.
                 </p>
-                <button>Get Started</button>
+                <button onClick={() => navi("/contact")}>Get Started</button>
               </div>
             </div>
           </div>
@@ -342,10 +344,12 @@ const Home = () => {
                               our bespoke software solutions ,meticulously
                               crafted to streamline processes, enhance
                               productivity, and improve overall efficiency.
+                              <p>
+                                <a href="/" className="read-more-btn">
+                                  Read more
+                                </a>
+                              </p>
                             </p>
-                            <a href="/" className="read-more-btn">
-                              Read more
-                            </a>
                           </div>
                         </div>
                       </div>
@@ -359,7 +363,7 @@ const Home = () => {
                           <div class="service-type-title">
                             Cloud Computing Solutions
                           </div>
-                          <div >
+                          <div>
                             <p class="service-type-detail">
                               Unlock the power of the cloud with our scalable
                               and secure cloud computing solutions.
@@ -380,7 +384,7 @@ const Home = () => {
                           <div class="service-type-title">
                             Web Development and Design
                           </div>
-                          <div >
+                          <div>
                             <p class="service-type-detail">
                               Elevate your online presence with our expertly
                               designed websites and optimized.
@@ -449,7 +453,7 @@ const Home = () => {
                           <div class="service-type-title">
                             Cloud Computing Solutions
                           </div>
-                          <div >
+                          <div>
                             <p class="service-type-detail">
                               Unlock the power of the cloud with our scalable
                               and secure cloud computing solutions.
@@ -542,8 +546,7 @@ const Home = () => {
       </section>
       <FooterCompo />
     </div>
-  )
+  );
 };
 
 export default Home;
-

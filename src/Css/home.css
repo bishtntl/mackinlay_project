@@ -481,6 +481,9 @@ button.btn.more-btn.search-btn {
     position: relative;
     top: 3vh;
   }
+  .serviceitem {
+    margin-top: 2vh;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {

@@ -1,5 +1,5 @@
 .container .logo {
-  width: 200px;
+  width: 100px;
 }
 .container.customheader {
   max-width: 100%;
@@ -7,7 +7,8 @@
 }
 .navbar {
   /* background-color: white; */
-  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.088);
+  /* box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.088); */
+  background-color: blue;
 }
 .container .navbar-collapse .navbar-nav .nav-item a.nav-link {
   font-family: Poppins;
@@ -15,7 +16,7 @@
   font-weight: 400;
   line-height: 21px;
   text-align: left;
-
+  color: #726565;
   text-transform: capitalize;
 }
 .navbar-collapse {
@@ -40,4 +41,14 @@
 } */
 a.nav-link.active {
   color: blue !important;
+}
+@media screen and (max-width: 767px) {
+  .container .logo {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container .logo {
+    width: 100px;
+  }
 }
