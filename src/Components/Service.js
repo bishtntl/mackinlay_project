@@ -71,10 +71,13 @@ function Service() {
                           bespoke software solutions, meticulously crafted to
                           streamline processes, enhance productivity, and
                           improve overall efficiency.
-                        </p>
+                        </p >
+                        <p className="red_mr">
                         <a href="/service" className="read-more-btn">
                           Read More
                         </a>
+                        </p>
+                       
                       </div>
                     </div>
                   </div>
