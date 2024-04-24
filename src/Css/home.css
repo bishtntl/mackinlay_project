@@ -426,6 +426,15 @@ button.btn.more-btn.search-btn {
     width: 100%;
   }
 
+  .serviceitem {
+    background-color: #fff;
+    color: #000;
+    font-family: DubaiBold;
+    border-radius: 2%;
+    width: 100%;
+    border: 1px solid #3a71ea;
+    height: 415px;
+  }
   .milion_job_content_us {
     font-family: DubaiLight;
     text-align: center;

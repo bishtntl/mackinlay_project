@@ -72,11 +72,11 @@ function Service() {
                           streamline processes, enhance productivity, and
                           improve overall efficiency.
                         </p >
-                        <p className="red_mr">
+                        
                         <a href="/service" className="read-more-btn">
                           Read More
                         </a>
-                        </p>
+                       
                        
                       </div>
                     </div>
