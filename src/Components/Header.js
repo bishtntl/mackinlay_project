@@ -1,9 +1,10 @@
 import React,{useState} from "react";
 // import image1 from "./images/logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import logo from "../Assetes/images/mackinlay_logo.png";
 import "../Css/header.css";
 const Header = () => {
+  const navi=useNavigate()
   const [isOpen, setIsOpen] = useState(false);
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
@@ -78,7 +79,7 @@ const Header = () => {
               </li>
             </ul>
             <form class="d-flex">
-              <button className="sign-in-btn">Sign In</button>
+              <button onClick={()=>navi("/signup")} className="sign-in-btn">Sign In</button>
             </form>
           </div>
         </div>
