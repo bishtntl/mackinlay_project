@@ -1,10 +1,10 @@
 import React from "react";
 import "../Css/discover.css";
 import FooterCompo from "./Footer";
-import { useNavigate } from "react-router-dom";
+
 
 function About() {
-  const navi = useNavigate();
+ 
   return (
     <>
       <div className="container">
