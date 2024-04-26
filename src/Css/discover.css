@@ -92,6 +92,10 @@
   .about_img_discover {
     width: 75%;
   }
+  .under_discover {
+    position: relative;
+    top: 6vh;
+  }
   .under_about_div {
     position: absolute;
     bottom: -15vh;
@@ -128,13 +132,13 @@
   }
   .product_container {
     position: relative;
-    top: 8vh;
+    top: 12vh;
     display: flex;
   }
   .product_heading {
     /* border: 2px solid black; */
     position: relative;
-    top: 5vh;
+    top: 10vh;
   }
   .product_one {
     display: flex;
