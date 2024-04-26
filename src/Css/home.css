@@ -464,7 +464,7 @@ button.btn.more-btn.search-btn {
   }
   .under_about_div_home {
     position: absolute;
-    bottom: -16vh;
+    bottom: -12vh;
     left: 30vw;
     width: 70%;
     /* border: 2px solid black; */
@@ -501,11 +501,11 @@ button.btn.more-btn.search-btn {
   }
   .heading_container {
     position: relative;
-    top: 6vh;
+    top: 7vh;
   }
   .content {
     position: relative;
-    top: 3vh;
+    top: 6vh;
   }
   .serviceitem {
     margin-top: 2vh;
