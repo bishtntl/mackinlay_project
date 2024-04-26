@@ -39,15 +39,11 @@ function Mission() {
                     exceptional results and maximum value for our clients.
                   </span>
                 </div>
-
-                <div>
-                  <span style={{ color: "#4b91d3" }}>
-                    <span>
-                      <i class="fa-solid fa-grip-lines"></i>
-                    </span>{" "}
-                    <span>Read More</span>
-                  </span>
-                </div>
+                <p>
+                  <a href="/mission" className="read-more-btn">
+                    Read more
+                  </a>
+                </p>
               </div>
             </div>{" "}
           </div>
@@ -77,15 +73,11 @@ function Mission() {
                     business success.
                   </span>
                 </div>
-
-                <div>
-                  <span style={{ color: "#4b91d3" }}>
-                    <span>
-                      <i class="fa-solid fa-grip-lines"></i>
-                    </span>{" "}
-                    <span>Read More</span>
-                  </span>
-                </div>
+                <p>
+                  <a href="/mission" className="read-more-btn">
+                    Read more
+                  </a>
+                </p>
               </div>
             </div>{" "}
           </div>
@@ -124,7 +116,9 @@ function Mission() {
                     <span>
                       <i class="fa-solid fa-grip-lines"></i>
                     </span>{" "}
-                    <span>Read More</span>
+                    <a href="/mission" className="read-more-btn">
+                      Read more
+                    </a>
                   </span>
                 </div>
               </div>
@@ -161,7 +155,9 @@ function Mission() {
                     <span>
                       <i class="fa-solid fa-grip-lines"></i>
                     </span>{" "}
-                    <span>Read More</span>
+                    <a href="/mission" className="read-more-btn">
+                      Read more
+                    </a>
                   </span>
                 </div>
               </div>
@@ -175,7 +171,8 @@ function Mission() {
             <div>
               <img
                 src="https://mackinlay.in/img/blog-4.jpg"
-                className="image_size" alt="Not Found"
+                className="image_size"
+                alt="Not Found"
               />
             </div>
             <div className="row global_dtl " data-aos="zoom-in-up">
@@ -201,7 +198,9 @@ function Mission() {
                     <span>
                       <i class="fa-solid fa-grip-lines"></i>
                     </span>{" "}
-                    <span>Read More</span>
+                    <a href="/mission" className="read-more-btn">
+                      Read more
+                    </a>
                   </span>
                 </div>
               </div>
@@ -235,13 +234,14 @@ function Mission() {
                     your business goals with our industry-leading IT solutions.
                   </span>
                 </div>
-
                 <div>
                   <span style={{ color: "#4b91d3" }}>
                     <span>
                       <i class="fa-solid fa-grip-lines"></i>
                     </span>{" "}
-                    <span>Read More</span>
+                    <a href="/mission" className="read-more-btn">
+                      Read more
+                    </a>
                   </span>
                 </div>
               </div>

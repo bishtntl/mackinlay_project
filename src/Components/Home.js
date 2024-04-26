@@ -247,7 +247,7 @@ const Home = () => {
               <img
                 src="https://mackinlay.in/img/about-2.jpg"
                 alt="Not Found"
-                className="about_img about_img_res mt-3"
+                className=" about_img_res_home mt-3"
               />
             </div>
             <div className="under_about_div_home ">
@@ -278,7 +278,12 @@ const Home = () => {
                 precision and expertise.
               </p>
               <div class="btn-container">
-                <button class="btn more-btn search-btn">Learn More</button>
+                <button
+                  class="btn more-btn search-btn"
+                  onClick={() => navi("/discover")}
+                >
+                  Learn More
+                </button>
               </div>
             </div>
           </div>
@@ -296,7 +301,7 @@ const Home = () => {
         </div>
 
         <div className="row">
-          <div className="pt-5 mt-5">
+          <div className="pt-5 mt-5 sider_service">
             <div
               id="home"
               class="carousel slide"
@@ -345,7 +350,7 @@ const Home = () => {
                               crafted to streamline processes, enhance
                               productivity, and improve overall efficiency.
                               <p>
-                                <a href="/" className="read-more-btn">
+                                <a href="/service" className="read-more-btn">
                                   Read more
                                 </a>
                               </p>
@@ -368,7 +373,7 @@ const Home = () => {
                               Unlock the power of the cloud with our scalable
                               and secure cloud computing solutions.
                             </p>
-                            <a href="/" class="read-more-btn">
+                            <a href="/service" class="read-more-btn">
                               Read more
                             </a>
                           </div>
@@ -389,7 +394,7 @@ const Home = () => {
                               Elevate your online presence with our expertly
                               designed websites and optimized.
                             </p>
-                            <a href="/" class="read-more-btn">
+                            <a href="/service" class="read-more-btn">
                               Read more
                             </a>
                           </div>
@@ -414,7 +419,7 @@ const Home = () => {
                               Mobile applications designed to deliver a superior
                               user experience and drive engagement.
                             </p>
-                            <a href="/" class="read-more-btn">
+                            <a href="/service" class="read-more-btn">
                               Read more
                             </a>
                           </div>
@@ -437,7 +442,7 @@ const Home = () => {
                               crafted to streamline processes, enhance
                               productivity, and improve overall efficiency.
                             </p>
-                            <a href="/" className="read-more-btn">
+                            <a href="/service" className="read-more-btn">
                               Read more
                             </a>
                           </div>
@@ -458,7 +463,7 @@ const Home = () => {
                               Unlock the power of the cloud with our scalable
                               and secure cloud computing solutions.
                             </p>
-                            <a href="/" class="read-more-btn">
+                            <a href="/service" class="read-more-btn">
                               Read more
                             </a>
                           </div>
@@ -492,7 +497,7 @@ const Home = () => {
 
       <section class="container ">
         <div class="row">
-          <div class="col-md-6 col-lg-6 position-relative ">
+          <div class="col-md-6 col-lg-6 position-relative count_div">
             <div class="about-img-container ">
               <div
                 class="milion-job-img-choose-us_about "

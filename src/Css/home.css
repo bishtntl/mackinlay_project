@@ -11,6 +11,9 @@
   background-color: #3a71ea;
   opacity: 0.5;
 }
+.about_img_res_home {
+  width: 65%;
+}
 button#home {
   display: none !important;
 }
@@ -376,12 +379,24 @@ button.btn.more-btn.search-btn {
   .testimonial-block {
     margin: 5% 0;
   }
+  .about_img_res_home {
+    width: 80%;
+  }
+  .about_img_two_home {
+    width: 100%;
+  }
+
   img.d-block.w-100 {
     height: 279px;
   }
   .banner_text {
     font-size: 14px;
     top: 10%;
+  }
+  .first_home_div {
+    /* border: 2px solid black; */
+    position: relative;
+    top: 2vh;
   }
   .banner_text h1 {
     font-size: 18px;
@@ -449,8 +464,10 @@ button.btn.more-btn.search-btn {
   }
   .under_about_div_home {
     position: absolute;
-    bottom: -15vh;
-    left: 32vw;
+    bottom: -16vh;
+    left: 30vw;
+    width: 70%;
+    /* border: 2px solid black; */
   }
   .about_img_two_home {
     width: 90%;
@@ -524,8 +541,16 @@ button.btn.more-btn.search-btn {
     left: 299px;
     z-index: 1;
   }
-  .about_img_res {
-    width: 20%;
+  .count_div {
+    position: relative;
+    top: 20vh;
+  }
+  .about_img_res_home {
+    width: 70%;
+  }
+  .serviceitem {
+    height: 100%;
+    width: 100%;
   }
   button.btn.more-btn.search-btn {
     border: 1px solid #3a71ea !important;
@@ -535,6 +560,7 @@ button.btn.more-btn.search-btn {
   }
   .heading_container {
     padding: 5% 0px 0px 0px;
+    top: 18vh;
   }
   .best_service_heading {
     font-family: DubaiBold;
@@ -543,16 +569,21 @@ button.btn.more-btn.search-btn {
     padding: 30px 0px;
   }
   .first_home_div {
-    /* border: 2px solid black; */
     position: relative;
+    top: 0;
   }
   .under_about_div_home {
     position: absolute;
     bottom: -14vh;
     left: 34vw;
   }
+  .sider_service {
+    position: relative;
+    height: 100%;
+    top: 14vh;
+  }
   .about_img_two_home {
-    width: 80%;
+    width: 100%;
     top: 5%;
   }
   .img_hm {
@@ -564,5 +595,9 @@ button.btn.more-btn.search-btn {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .milion_job_content {
+    position: relative;
+    top: 10%;
   }
 }

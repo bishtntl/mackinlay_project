@@ -9,6 +9,7 @@ import Discover from "./Components/Discover";
 import SignupCompo from "./Components/Register";
 import LoginCompo from "./Components/Login";
 
+
 function App() {
   return (
     <div className="App">
@@ -16,12 +17,14 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/discover" element={<Discover />}></Route>
-          <Route path="/service" element={<Service />}></Route>
-          <Route path="/mission" element={<Mission />}></Route>
-          <Route path="/contact" element={<ContactCompo />}></Route>
           <Route path="/signup" element={<SignupCompo />}></Route>
-          <Route path="/login" element={<LoginCompo/>}></Route>
+          <Route path="/login" element={<LoginCompo />}></Route>
+            <Route path="/discover" element={<Discover />}></Route>
+            <Route path="/service" element={<Service />}></Route>
+            <Route path="/mission" element={<Mission />}></Route>
+            <Route path="/contact" element={<ContactCompo />}></Route>
+         
+         
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,10 +1,16 @@
-import React,{useState} from "react";
-// import image1 from "./images/logo.png";
+import React, {  useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../Assetes/images/mackinlay_logo.png";
 import "../Css/header.css";
+
+const token = localStorage.getItem("token");
 const Header = () => {
- 
+  // const navi = useNavigate();
+  // const logout = () => {
+  //   localStorage.clear();
+    
+  // };
+
   const [isOpen, setIsOpen] = useState(false);
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
@@ -14,7 +20,13 @@ const Header = () => {
       <nav class="navbar navbar-expand-lg bg-white">
         <div class="container customheader">
           <a class="navbar-brand" href="/">
-            <img src={logo} style={{width:"100px;"}} alt="not-found" onClick={() =>("/")} className="logo" />
+            <img
+              src={logo}
+              style={{ width: "100px;" }}
+              alt="not-found"
+              onClick={() => "/"}
+              className="logo"
+            />
           </a>
           <button
             className={`navbar-toggler ${isOpen ? "collapsed" : ""}`}
@@ -23,10 +35,13 @@ const Header = () => {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div  className={`collapse navbar-collapse ${isOpen ? "show" : ""}`} id="navbarSupportedContent">
+          <div
+            className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav me-4 mb-2 mb-lg-0">
               <li class="nav-item">
-              <NavLink
+                <NavLink
                   to="/"
                   className="nav-link"
                   activeClassName="active"
@@ -56,16 +71,16 @@ const Header = () => {
                 </NavLink>
               </li>
               <li class="nav-item">
-              <li className="nav-item">
-                <NavLink
-                  to="/mission"
-                  className="nav-link"
-                  activeClassName="active"
-                  onClick={toggleNavbar}
-                >
-                  Mission
-                </NavLink>
-              </li>
+                <li className="nav-item">
+                  <NavLink
+                    to="/mission"
+                    className="nav-link"
+                    activeClassName="active"
+                    onClick={toggleNavbar}
+                  >
+                    Mission
+                  </NavLink>
+                </li>
               </li>
               <li className="nav-item">
                 <NavLink
@@ -78,10 +93,12 @@ const Header = () => {
                 </NavLink>
               </li>
             </ul>
-            <form class="d-flex">
+            {/* <form class="d-flex">
             <NavLink to="/signup">
-            <button  className="sign-in-btn">Sign In</button></NavLink>  
-            </form>
+                      <button className="sign-in-btn">Sign Up</button>
+                    </NavLink>
+             
+            </form> */}
           </div>
         </div>
       </nav>
@@ -89,7 +106,6 @@ const Header = () => {
   );
 };
 export default Header;
-
 
 // import React from "react";
 // // import image1 from "./images/logo.png";
@@ -223,7 +239,7 @@ export default Header;
 //                        Contact
 //                      </NavLink>
 //               </li>
-             
+
 //             </ul>
 //             <form class="d-flex">
 //               <button className="sign-in-btn">Sign In</button>
@@ -236,6 +252,3 @@ export default Header;
 // };
 
 // export default Header;
-
-
-
