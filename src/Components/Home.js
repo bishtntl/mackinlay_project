@@ -361,7 +361,7 @@ const Home = () => {
                               crafted to streamline processes, enhance
                               productivity, and improve overall efficiency.
                               <p>
-                                <div>
+                                <div className="rd_btn">
                                   <a href="/service" className="read-more-btn">
                                     Read more
                                   </a>
