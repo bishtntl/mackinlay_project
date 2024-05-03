@@ -25,8 +25,14 @@ const Home = () => {
           data-bs-ride="carousel"
         >
           <div class="carousel-inner fact">
+            {/* {carousel_1}  */}
             <div class="carousel-item active fact-item">
-              <img src={carousel_1} class="d-block w-100" alt="..." />
+              <img
+                src=" https://mackinlay.in/img/carousel-1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+
               <div className="banner_text">
                 <h1>Fastest Way to Achieve Success</h1>
                 <p>
@@ -341,18 +347,25 @@ const Home = () => {
                             />
                           </div>
                           <div className="service-type-title">
-                            <p>Custom Software Development</p>
+                            <p className="text-center centeronee">
+                              Custom Software Development
+                            </p>
                           </div>
                           <div>
-                            <p class="service-type-detail">
+                            <p
+                              className="text-center centerone"
+                              class="service-type-detail"
+                            >
                               Transform your HR and insurance operations with
                               our bespoke software solutions ,meticulously
                               crafted to streamline processes, enhance
                               productivity, and improve overall efficiency.
                               <p>
-                                <a href="/service" className="read-more-btn">
-                                  Read more
-                                </a>
+                                <div>
+                                  <a href="/service" className="read-more-btn">
+                                    Read more
+                                  </a>
+                                </div>
                               </p>
                             </p>
                           </div>
@@ -366,16 +379,23 @@ const Home = () => {
                             <img src={cloud_comp_sol} alt="not found" />
                           </div>
                           <div class="service-type-title">
-                            Cloud Computing Solutions
+                            <p className="text-center centeronee">
+                              Cloud Computing Solutions
+                            </p>
                           </div>
                           <div>
-                            <p class="service-type-detail">
+                            <p
+                              class="service-type-detail"
+                              className="text-center centerone"
+                            >
                               Unlock the power of the cloud with our scalable
                               and secure cloud computing solutions.
                             </p>
-                            <a href="/service" class="read-more-btn">
-                              Read more
-                            </a>
+                            <div className="rd_btn">
+                              <a href="/service" class="read-more-btn">
+                                Read more
+                              </a>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -387,16 +407,24 @@ const Home = () => {
                             <img src={web_dev_and_design} alt="not found" />
                           </div>
                           <div class="service-type-title">
-                            Web Development and Design
+                            <p className="text-center centeronee">
+                              Web Development and Design
+                            </p>
                           </div>
                           <div>
-                            <p class="service-type-detail">
+                            <p
+                              class="service-type-detail"
+                              className="text-center centerone"
+                            >
                               Elevate your online presence with our expertly
                               designed websites and optimized.
                             </p>
-                            <a href="/service" class="read-more-btn">
-                              Read more
-                            </a>
+
+                            <div className="rd_btn">
+                              <a href="/service" class="read-more-btn">
+                                Read more
+                              </a>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -412,16 +440,23 @@ const Home = () => {
                             <img src={mobile_app_dev} alt="not found" />
                           </div>
                           <div class="service-type-title">
-                            Mobile App Development
+                            <p className="text-center centeronee">
+                              Mobile App Development
+                            </p>
                           </div>
                           <div class="">
-                            <p class="service-type-detail">
+                            <p
+                              class="service-type-detail"
+                              className="text-center centerone"
+                            >
                               Mobile applications designed to deliver a superior
                               user experience and drive engagement.
                             </p>
-                            <a href="/service" class="read-more-btn">
-                              Read more
-                            </a>
+                            <div className="rd_btn">
+                              <a href="/service" class="read-more-btn">
+                                Read more
+                              </a>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -433,18 +468,25 @@ const Home = () => {
                             <img src={custom_soft_dev} alt="not found" />
                           </div>
                           <div class="service-type-title">
-                            Custom Software Development
+                            <p className="text-center centeronee">
+                              Custom Software Development
+                            </p>
                           </div>
                           <div class="">
-                            <p class="service-type-detail">
+                            <p
+                              class="service-type-detail"
+                              className="text-center centerone"
+                            >
                               Transform your HR and insurance operations with
                               our bespoke software solutions ,meticulously
                               crafted to streamline processes, enhance
                               productivity, and improve overall efficiency.
                             </p>
-                            <a href="/service" className="read-more-btn">
-                              Read more
-                            </a>
+                            <div className="rd_btn">
+                              <a href="/service" className="read-more-btn">
+                                Read more
+                              </a>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -456,16 +498,24 @@ const Home = () => {
                             <img src={cloud_comp_sol} alt="not found" />
                           </div>
                           <div class="service-type-title">
-                            Cloud Computing Solutions
+                            <p className="text-center centeronee">
+                              {" "}
+                              Cloud Computing Solutions
+                            </p>
                           </div>
                           <div>
-                            <p class="service-type-detail">
+                            <p
+                              class="service-type-detail"
+                              className="text-center centerone"
+                            >
                               Unlock the power of the cloud with our scalable
                               and secure cloud computing solutions.
                             </p>
-                            <a href="/service" class="read-more-btn">
-                              Read more
-                            </a>
+                            <div className="rd_btn">
+                              <a href="/service" class="read-more-btn">
+                                Read more
+                              </a>
+                            </div>
                           </div>
                         </div>
                       </div>

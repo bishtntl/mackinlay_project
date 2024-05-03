@@ -63,19 +63,20 @@ function Service() {
                         <img src={custom_soft_dev} alt="not found" />
                       </div>
                       <div className="content-container">
-                        <h3>Custom Software Development</h3>
-                        <p>
+                        <h3 className="text-center centeronee">
+                          Custom Software Development
+                        </h3>
+                        <p className="text-center centerone">
                           Transform your HR and insurance operations with our
                           bespoke software solutions, meticulously crafted to
                           streamline processes, enhance productivity, and
                           improve overall efficiency.
-                        </p >
-                        
-                        <a href="/service" className="read-more-btn">
-                          Read More
-                        </a>
-                       
-                       
+                        </p>
+                        <div className="rd_btn">
+                          <a href="/service" className="read-more-btn ">
+                            Read More
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -85,14 +86,18 @@ function Service() {
                         <img src={cloud_comp_sol} alt="not found" />
                       </div>
                       <div className="content-container">
-                        <h3>Cloud Computing Solutions</h3>
-                        <p>
+                        <h3 className="text-center centeronee">
+                          Cloud Computing Solutions
+                        </h3>
+                        <p className="text-center centerone">
                           Unlock the power of the cloud with our scalable and
                           secure cloud computing solutions.
                         </p>
-                        <a href="/service" className="read-more-btn">
-                          Read More
-                        </a>
+                        <div className="rd_btn">
+                          <a href="/service" className="read-more-btn">
+                            Read More
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -102,14 +107,18 @@ function Service() {
                         <img src={web_dev_and_design} alt="not found" />
                       </div>
                       <div className="content-container">
-                        <h3>Web Development and Design</h3>
-                        <p>
+                        <h3 className="text-center centeronee">
+                          Web Development and Design
+                        </h3>
+                        <p className="text-center centerone">
                           Elevate your online presence with our expertly
                           designed websites and optimized.
                         </p>
-                        <a href="/service" className="read-more-btn">
-                          Read More
-                        </a>
+                        <div className="rd_btn">
+                          <a href="/service" className="read-more-btn">
+                            Read More
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -123,16 +132,20 @@ function Service() {
                         <img src={data_analytics} alt="not found" />
                       </div>
                       <div className="content-container">
-                        <h3>Data Analytics and Business Intelligence</h3>
-                        <p>
+                        <h3 className="text-center centeronee">
+                          Data Analytics and Business Intelligence
+                        </h3>
+                        <p className="text-center centerone">
                           Gain actionable insights and make informed decisions
                           with our advanced analytics solutions, leveraging data
                           to optimize HR processes, enhance customer
                           experiences, and drive business growth.
                         </p>
-                        <a href="/service" className="read-more-btn">
-                          Read More
-                        </a>
+                        <div className="rd_btn">
+                          <a href="/service" className="read-more-btn">
+                            Read More
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -142,16 +155,20 @@ function Service() {
                         <img src={cyber_security} alt="not found" />
                       </div>
                       <div className="content-container">
-                        <h3>Cyber Security</h3>
-                        <p>
+                        <h3 className="text-center centeronee">
+                          Cyber Security
+                        </h3>
+                        <p className="text-center centerone">
                           Protect your sensitive data and safeguard your
                           business from cyber threats with our robust
                           cybersecurity services, tailored to meet the unique
                           security needs of HR and BFSI organizations.
                         </p>
-                        <a href="/service" className="read-more-btn">
-                          Read More
-                        </a>
+                        <div className="rd_btn">
+                          <a href="/service" className="read-more-btn">
+                            Read More
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -161,14 +178,18 @@ function Service() {
                         <img src={mobile_app_dev} alt="not found" />
                       </div>
                       <div className="content-container">
-                        <h3>Mobile App Development</h3>
-                        <p>
+                        <h3 className="text-center centeronee">
+                          Mobile App Development
+                        </h3>
+                        <p className="text-center centerone">
                           Mobile applications designed to deliver a superior
                           user experience and drive engagement.
                         </p>
-                        <a href="/service" className="read-more-btn">
-                          Read More
-                        </a>
+                        <div className="rd_btn">
+                          <a href="/service" className="read-more-btn">
+                            Read More
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -224,16 +245,20 @@ function Service() {
                         <img src={IT_consulating} alt="not found" />
                       </div>
                       <div className="content-container">
-                        <h3>IT Consulting and Strategy</h3>
-                        <p>
+                        <h3 className="text-center centeronee">
+                          IT Consulting and Strategy
+                        </h3>
+                        <p className="text-center centerone">
                           Harness the full potential of technology with our
                           strategic IT consulting services, helping you develop
                           and implement IT strategies aligned with your business
                           goals and objectives.
                         </p>
-                        <a href="/service" className="read-more-btn">
-                          Read More
-                        </a>
+                        <div className="rd_btn">
+                          <a href="/service" className="read-more-btn">
+                            Read More
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -243,16 +268,18 @@ function Service() {
                         <img src={UI} alt="not found" />
                       </div>
                       <div className="content-container">
-                        <h3>UI/UX Design</h3>
-                        <p>
+                        <h3 className="text-center centeronee">UI/UX Design</h3>
+                        <p className="text-center centerone">
                           Deliver exceptional user experiences with our expert
                           UI/UX design services, ensuring that your applications
                           and websites are not only functional but also visually
                           stunning and intuitive to use.
                         </p>
-                        <a href="/service" className="read-more-btn">
-                          Read More
-                        </a>
+                        <div className="rd_btn">
+                          <a href="/service" className="read-more-btn">
+                            Read More
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -262,20 +289,23 @@ function Service() {
                         <img src={Quality_Assurance} alt="not found" />
                       </div>
                       <div className="content-container">
-                        <h3>Quality Assurance and Testing</h3>
-                        <p>
+                        <h3 className="text-center centeronee">
+                          Quality Assurance and Testing
+                        </h3>
+                        <p className="text-center centerone">
                           Ensure the reliability and performance of your
                           software applications with our comprehensive quality
                           assurance and testing services, meticulously testing
                           every aspect to deliver flawless results.
                         </p>
-                        <a href="/service" className="read-more-btn">
-                          Read More
-                        </a>
+                        <div className="rd_btn">
+                          <a href="/service" className="read-more-btn">
+                            Read More
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
-                 
                 </div>
               </div>
               <div className="carousel-item">
@@ -286,16 +316,20 @@ function Service() {
                         <img src={ERPS_sol} alt="not found" />
                       </div>
                       <div className="content-container">
-                        <h3>ERP Solutions</h3>
-                        <p>
+                        <h3 className="text-center centeronee">
+                          ERP Solutions
+                        </h3>
+                        <p className="text-center centerone">
                           Streamline your operations and drive efficiency with
                           our ERP solutions, offering integrated modules for HR,
                           finance, and operations management tailored to your
                           specific business needs.
                         </p>
-                        <a href="/service" className="read-more-btn">
-                          Read More
-                        </a>
+                        <div className="rd_btn">
+                          <a href="/service" className="read-more-btn">
+                            Read More
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -305,16 +339,20 @@ function Service() {
                         <img src={block_chain} alt="not found" />
                       </div>
                       <div className="content-container">
-                        <h3>Blockchain Development</h3>
-                        <p>
+                        <h3 className="text-center centeronee">
+                          Blockchain Development
+                        </h3>
+                        <p className="text-center centerone">
                           Embrace the future of technology with our blockchain
                           development services, leveraging decentralized ledgers
                           to enhance security, transparency, and trust in your
                           HR and insurance processes.
                         </p>
-                        <a href="/service" className="read-more-btn">
-                          Read More
-                        </a>
+                        <div className="rd_btn">
+                          <a href="/service" className="read-more-btn">
+                            Read More
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -324,16 +362,22 @@ function Service() {
                         <img src={man_power} alt="not found" />
                       </div>
                       <div className="content-container">
-                        <h3>Manpower Provisioning</h3>
-                        <p>
+                        <h3 className="text-center centeronee">
+                          Manpower Provisioning
+                        </h3>
+                        <p className="text-center centerone">
                           Augment your workforce with our skilled professionals,
                           available under our payroll or as outsourced
                           resources, to meet your staffing needs and project
                           requirements effectively.
                         </p>
+
+                        <div className="rd_btn">
                         <a href="/service" className="read-more-btn">
                           Read More
                         </a>
+                        </div>
+                       
                       </div>
                     </div>
                   </div>
@@ -366,4 +410,3 @@ function Service() {
 }
 
 export default Service;
-

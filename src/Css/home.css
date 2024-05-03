@@ -49,8 +49,8 @@ button#home {
   height: 200px;
 }
 .serviceitem .post-slide .service-type-title {
-  font-size: 24px;
-  font-family: DubaiLight;
+  font-size: 26px;
+  /* font-family: DubaiLight; */
   color: #3a71ea;
   text-align: left;
 }
@@ -97,9 +97,10 @@ button#home {
   width: 100%;
 }
 .best_service_heading {
-  font-family: DubaiBold;
-  font-size: 40px;
-  font-weight: 500;
+  font-family: DubaiLight;
+  font-size: 50px;
+  font-weight: 300px;
+  padding: 30px 0px;
 }
 .best_service_heading .co {
   color: #3a71ea;
@@ -355,7 +356,7 @@ button.btn.more-btn.search-btn {
 }
 .fact .fact-item img {
   opacity: 0.6;
-  background-color: #d50f0f;
+  /* background-color: #d50f0f; */
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 .milion-job-img img {
@@ -432,10 +433,13 @@ button.btn.more-btn.search-btn {
     font-size: 20px;
   }
   .best_service_heading {
-    font-family: DubaiBold;
+    /* font-family: DubaiBold;
     font-size: 40px;
-    font-weight: 400;
-    /* border: 1px solid red; */
+    font-weight: 500; */
+    font-family: DubaiLight;
+    font-size: 40px;
+    font-weight: 300px;
+    padding: 30px 0px;
   }
   .serviceitem {
     width: 100%;
@@ -562,12 +566,7 @@ button.btn.more-btn.search-btn {
     padding: 5% 0px 0px 0px;
     top: 18vh;
   }
-  .best_service_heading {
-    font-family: DubaiBold;
-    font-size: 40px;
-    font-weight: 500;
-    padding: 30px 0px;
-  }
+
   .first_home_div {
     position: relative;
     top: 0;

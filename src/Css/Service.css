@@ -4,12 +4,7 @@
   border-radius: 2%;
   height: 60vh;
 }
-.card-container:hover {
-  width: 98%;
-  border-radius: 2%;
-  box-shadow: 1px 3px 12px rgb(54, 9, 203);
-  background-color: aliceblue;
-}
+
 .img-container {
   width: 100%;
   display: flex;
@@ -24,7 +19,12 @@
   width: 80%;
   height: 98%;
 }
-
+.centerone {
+  font-family: DubaiLight;
+}
+.centeronee {
+  font-family: Dubaibold;
+}
 .content-container {
   color: #3a71ea;
   padding: 10px;
@@ -36,6 +36,10 @@
 }
 .carousel-indicators {
   display: none;
+}
+
+.rd_btn {
+  text-align: center;
 }
 @media screen and (max-width: 767px) {
   .col-md-4.margin-res {

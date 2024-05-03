@@ -5,13 +5,14 @@ function Mission() {
   return (
     <>
       <div className="container mt-5">
-        <span className="mission_head_first">M</span>
-        <span className="fs-4 " style={{ color: "gray" }}>
-          ission
+        <span className="mission_head_first">
+          M<span style={{ color: "#605b5b" }}>ission</span>
         </span>
-        <p className="mission_head" style={{ color: "#001689" }}>
-          Our Missions
+
+        <p className="mission_head" style={{ color: "#3a71ea" }}>
+          <span>Our</span> <span>Missions</span>
         </p>
+
         <div className="row parentpro">
           <div className="col-md-6 mission_first">
             <div>
@@ -32,8 +33,8 @@ function Mission() {
                   <span className="fs-5"> Mission</span>
                 </div>
 
-                <div className="fs-5">
-                  <span>
+                <div>
+                  <span className="dtl_para">
                     Our team of seasoned professionals brings extensive industry
                     knowledge and technical expertise to every project, ensuring
                     exceptional results and maximum value for our clients.

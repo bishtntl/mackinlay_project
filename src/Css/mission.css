@@ -10,14 +10,18 @@
   top: 5vh;
 }
 .mission_head {
-  color: #001689;
-  font-size: 40px;
+  font-family: Dubaibold;
+  font-size: 32px;
+  font-weight: 300px;
 }
 .mission_head_first {
   color: #4b91d3;
   font-size: 30px;
+  font-family: Dubaibold;
 }
-
+.misi {
+  font-family: DubaiBold;
+}
 .parentpro_two {
   display: flex;
   justify-content: space-around;
@@ -36,13 +40,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 2px solid black; */
 }
 .mission_second {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 2px solid black; */
 }
 .mission_third {
   display: flex;
@@ -70,74 +72,59 @@
   width: 90%;
   top: -6vh;
   padding: 10px;
-  /* border: 2px solid black; */
-  /* background-color: #bedaf4f2; */
   background-color: white;
-  border: 3px solid #3a71ea;
+  box-shadow: 1px 1px 5px gray;
   border-radius: 2%;
 }
-.expertise_dtl :hover {
-  background-color: aliceblue;
-}
+
 .innovation_dtl {
   position: relative;
   width: 90%;
   top: -6vh;
   background-color: white;
-  border: 3px solid #3a71ea;
+  box-shadow: 1px 1px 5px gray;
   border-radius: 2%;
   padding: 10px;
 }
-.innovation_dtl :hover {
-  background-color: aliceblue;
-}
+
 .Collaboration_dtl {
   position: relative;
   width: 90%;
   top: -6vh;
   background-color: white;
-  border: 3px solid #3a71ea;
+  box-shadow: 1px 1px 5px gray;
   border-radius: 2%;
   padding: 10px;
 }
-.Collaboration_dtl :hover {
-  background-color: aliceblue;
-}
+
 .Client_dtl {
   position: relative;
   width: 90%;
   top: -6vh;
   background-color: white;
-  border: 3px solid #3a71ea;
+  box-shadow: 1px 1px 5px gray;
   border-radius: 2%;
   padding: 10px;
 }
-.Client_dtl :hover {
-  background-color: aliceblue;
-}
+
 .global_dtl {
   position: relative;
   width: 90%;
   top: -6vh;
   background-color: white;
-  border: 3px solid #3a71ea;
+  box-shadow: 1px 1px 5px gray;
   border-radius: 2%;
   padding: 10px;
 }
-.global_dtl :hover {
-  background-color: aliceblue;
-}
+
 .Partner_dtl {
   position: relative;
   width: 90%;
   top: -6vh;
   background-color: white;
-  border: 3px solid #3a71ea;
+  box-shadow: 1px 1px 5px gray;
   border-radius: 2%;
   padding: 10px;
-}
-.Partner_dtl :hover {
-  background-color: aliceblue;
 }
 
 .mission_icon {
@@ -149,27 +136,27 @@
 }
 
 .exp {
-  font-size: 32px;
+  font-size: 28px;
   color: #001689;
 }
 .invo {
-  font-size: 32px;
+  font-size: 28px;
   color: #001689;
 }
 .Coll {
-  font-size: 32px;
+  font-size: 28px;
   color: #001689;
 }
 .client {
-  font-size: 32px;
+  font-size: 28px;
   color: #001689;
 }
 .global {
-  font-size: 32px;
+  font-size: 28px;
   color: #001689;
 }
 .partner {
-  font-size: 32px;
+  font-size: 28px;
   color: #001689;
 }
 .missions {

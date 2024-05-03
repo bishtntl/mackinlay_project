@@ -2,9 +2,7 @@ import React from "react";
 import "../Css/discover.css";
 import FooterCompo from "./Footer";
 
-
 function About() {
- 
   return (
     <>
       <div className="container">
@@ -49,7 +47,12 @@ function About() {
       {/* **************product part***************** */}
 
       <div className="container product_heading">
-        <h1 className="product_head">Our Products and Innovation</h1>
+        <h1 className="product_head">
+          O<span style={{ color: "black" }}>ur</span> P
+          <span style={{ color: "black" }}>roducts</span> a
+          <span style={{ color: "black" }}>nd</span> I
+          <span style={{ color: "black" }}>nnovation</span>
+        </h1>
       </div>
 
       <div className="container product_container">
@@ -71,7 +74,7 @@ function About() {
                   </span>{" "}
                   <span className="fs-5"> Mission</span>
                 </div>
-                <div className="dtl_para fs-5">
+                <div className="dtl_para ">
                   <span>
                     With HRConnect Pro, we redefine HR management, offering a
                     product that stands at the forefront of technology and
@@ -110,8 +113,8 @@ function About() {
                   </span>{" "}
                   <span className="fs-5"> Mission</span>
                 </div>
-                <div>
-                  <span className="fs-5">
+                <div className="dtl_para">
+                  <span>
                     The means of interactions among people in which they create,
                     share, and/or exchange information and ideas in virtual
                     communities and networks

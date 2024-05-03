@@ -21,13 +21,18 @@
   color: #3a71ea;
 }
 .product_head {
-  color: #001689;
-  font-family: DubaiBold;
-  font-weight: bold;
+  font-family: DubaiLight;
+  font-size: 50px;
+  font-weight: 300px;
+  padding: 30px 0px;
+  color: #3a71ea;
 }
 .product_parent {
   display: flex;
   justify-content: space-around;
+}
+.dtl_para {
+  font-size: 20px;
 }
 .product_parent_first {
   display: flex;
@@ -56,12 +61,12 @@
 }
 
 .hrconnect {
-  font-size: 32px;
+  font-size: 28px;
   width: 100%;
   color: #001689;
 }
 .media {
-  font-size: 32px;
+  font-size: 28px;
   width: 100%;
   color: #001689;
 }
@@ -69,18 +74,18 @@
   position: relative;
   width: 90%;
   top: -6vh;
-
+  box-shadow: 1px 1px 5px gray;
   background-color: white;
-  border: 3px solid #3a71ea;
+  /* border: 3px solid #3a71ea; */
   border-radius: 2%;
 }
 .media_dtl {
   position: relative;
   width: 90%;
   top: -6vh;
-
+  box-shadow: 1px 1px 5px gray;
   background-color: white;
-  border: 3px solid #3a71ea;
+  /* border: 3px solid #3a71ea; */
   border-radius: 2%;
 }
 .under_discover {

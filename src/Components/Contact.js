@@ -7,7 +7,11 @@ function ContactCompo() {
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-12 text-center">
-            <h1 className="contact_heading">Contact Us</h1>
+            <h1 className="contact_heading">
+              <span>C</span>
+              <span style={{ color: "#605b5b" }}>ontact</span> <span>U</span>
+              <span style={{ color: "#605b5b" }}>s</span>
+            </h1>
             <h3 className="contact_second_head">Fill your query & submit</h3>
           </div>
         </div>
