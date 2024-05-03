@@ -1,6 +1,6 @@
 import React from "react";
 import "../Css/home.css";
-import carousel_1 from "../Assetes/images/image 1 (2).png";
+// import carousel_1 from "../Assetes/images/image 1 (2).png";
 import carousel_2 from "../Assetes/images/carousel_2.png";
 import carousel_3 from "../Assetes/images/carousel_3.png";
 import qualified from "../Assetes/images/qualified_new (3).png";
